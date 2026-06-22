@@ -1,81 +1,80 @@
-@media(max-width:1020px){
-    header{
-        align-items: normal;
-        flex-direction: column;
-        border: none;
-        
-    }
-    .headerleft{
-       justify-content: space-between;
-      
-    }
-    .logo{
-        display: none;
-    }
-    .address{
+@media (max-width: 1020px) {
+  header {
+    align-items: normal;
+    flex-direction: column;
+    border: none;
+  }
+  .headerleft {
+    justify-content: space-between;
+  }
+  .logo {
+    display: none;
+  }
+  .address {
     padding: 12px 15px;
-    }
-    .address h3{
-        font-size: 22px;
-        /* margin-bottom: 4px; */
-    }
-    .address p{
+  }
+  .address h3 {
+    font-size: 22px;
+    /* margin-bottom: 4px; */
+  }
+  .address p {
     font-size: 15px;
-   }
-   .acc-icon{
+  }
+  .acc-icon {
     padding: 10px;
-   }
-   .acc-icon i{
+  }
+  .acc-icon i {
     display: block;
     padding: 10px;
     font-size: 32px;
     margin-right: 8px;
-   }
-   .search{
+  }
+  .search {
     margin: 0px 15px;
-   }
-   .headerright{
+  }
+  .headerright {
     display: none;
-   }
-   .body{
+  }
+  .body {
     padding: 0px 10px;
-   }
-   .hero-section{
+  }
+  .hero-section {
     display: none;
-   }
-   .banner-item{
+  }
+  .banner-item {
     display: none;
-   }
-   .product-box-1{
+  }
+  .product-box-1 {
     flex-wrap: wrap;
-   }
-   .product-box-1 img{
+  }
+  .product-box-1 img {
     width: 24%;
-   }
-   .card{
+  }
+  .card {
     flex-wrap: wrap;
-}
-   .card-1{
+  }
+  .card-1 {
     width: 30%;
     margin: 1%;
-}
-
-
-}
-
-
-
-@media(max-width:475px){
-   
-    .address h3{
-        font-size: 18px;
-        /* margin-bottom: 4px; */
-    }
-    .address p{
-    font-size: 10px;
-   }
-   #last-card-section{
+  }
+  footer {
     display: none;
-   }
-   
+  }
+  .mobile-footer img{
+    display: block;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 475px) {
+  .address h3 {
+    font-size: 18px;
+    /* margin-bottom: 4px; */
+  }
+  .address p {
+    font-size: 10px;
+  }
+  #last-card-section {
+    display: none;
+  }
 }
