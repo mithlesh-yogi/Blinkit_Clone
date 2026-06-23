@@ -51,10 +51,17 @@
     width: 24%;
   }
   .card {
-    flex-wrap: wrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
+  .card::-webkit-scrollbar{
+    display: none;
+}
   .card-1 {
-    width: 30%;
+    width: 42%;
+    flex-shrink: 0;
     margin: 1%;
   }
   footer {
@@ -74,7 +81,7 @@
   .address p {
     font-size: 10px;
   }
-  #last-card-section {
+  /* #last-card-section {
     display: none;
-  }
+  } */
 }
