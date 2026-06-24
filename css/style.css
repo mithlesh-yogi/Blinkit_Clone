@@ -12,7 +12,13 @@ header{
     border-bottom:1px solid rgb(238, 238, 238) ;
     align-items: center;
     padding: 0px 10px;
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
 }
 .headerleft{
     display: flex;
@@ -108,6 +114,7 @@ header{
 .body{
     max-width: 1280px;
     margin: auto;
+    margin-top: 80px;
 }
 .hero-section{
     width: 100%;
@@ -141,6 +148,18 @@ header{
     font-size: 24px;
     font-weight: 600;
     margin-left: 11px;
+    
+    
+}
+.card-product h3 span{
+    font-size: 14px;
+    color: green;
+    font-weight: 600; 
+    padding-left: 943px; 
+    
+}
+.card-product h3 .see-all{
+    padding-left: 888px; 
 }
 .card{
     display: flex;
@@ -155,10 +174,14 @@ header{
     flex-direction: column;
     width: 15%;
     margin: 0.5%;
+    margin-left: 1%;
     padding: 10px;
-    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
     flex-wrap: wrap;
     flex-shrink: 0;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    border: 0.5px solid rgb(232, 232, 232);
+    box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
     border-radius: 8px;
 }
 .card-1 img{
