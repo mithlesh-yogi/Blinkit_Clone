@@ -118,6 +118,7 @@ header{
 }
 .hero-section{
     width: 100%;
+    cursor: pointer;
 }
 .hero-section img{
     width: 100%;
@@ -129,6 +130,7 @@ header{
 .banner-item{
     width: 26%;
     margin: 1%;
+    cursor: pointer;
 }
 .banner-item img{
     width: 100%;
@@ -142,6 +144,7 @@ header{
 }
 .product-box-1 img{
     width: 10%;
+    cursor: pointer;
 }
 .card-product h3{
     padding: 16px 0px;
@@ -240,6 +243,9 @@ header{
     background-color: rgb(247, 255, 249);
     font-weight: 600;
     cursor: pointer;
+}
+.household-product{
+    display:none
 }
 .foot-pannel-1{
     display: flex;
