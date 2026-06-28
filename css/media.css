@@ -138,6 +138,22 @@
     display: block;
     max-width: 100%;
   }
+  .phone-banner{
+    display: block;
+    max-width: 1020px;
+    margin:20px 0px 0px 0px;
+    /* background-color: #edf5ff; */
+    padding: 0px;
+}
+.phone-banner img{
+    width: 100%;
+    height: auto;
+}
+#household-cards-mobile{
+  background-color: #daf2fe;
+  margin-top: -4px;
+  padding: 10px;
+}
 }
 
 @media (max-width: 475px) {
